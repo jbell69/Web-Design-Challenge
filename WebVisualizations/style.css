@@ -1,0 +1,47 @@
+_nav-item dropdown ml-auto { text-align:right; }
+_nav-item dropdown ml-auto { float:left; }
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: large;
+}
+p {
+    color: black;
+}
+body {
+    background-color: rgba(231, 229, 229, 0.829);
+  }
+
+.container {
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-block {
+    display: block;
+    background-color: white;
+    color: rgb(7, 172, 150);
+    margin-top: 3em;
+    padding: 1em;
+}
+
+@media (max-width: 600px){
+
+
+
+}
+
+.footer {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(86, 86, 87);
+}
