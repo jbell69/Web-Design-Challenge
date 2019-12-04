@@ -31,9 +31,26 @@ body {
     padding: 1em;
 }
 
-@media (max-width: 600px){
+table {
+    border-collapse: collapse;
+    width: 95%;
+  }
+  
+th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+tr:nth-child(even) {background-color: #f2f2f2;}
 
+.dataframe {
 
+    margin-top: 3rem;
+    margin-left: 3rem;
+
+}
+
+@media(max-width: 600px) {
 
 }
 
